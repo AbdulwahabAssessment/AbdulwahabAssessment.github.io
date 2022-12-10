@@ -1,0 +1,20 @@
+body{
+  background-color: lightgrey;
+}
+
+h1{
+  background-color: orange;
+  border-radius:17px;
+}
+
+p{
+  background-color: white;
+  border-radius:7px;
+}
+
+table{
+  background-color: orange;
+  border-radius:17px;
+  width: 30%;
+
+}
