@@ -1,0 +1,26 @@
+body{
+  background-color: lightgrey;
+}
+
+.Banner{
+  background-color: orange;
+  border-radius:17px;
+}
+.Paragraph{
+  text-align: center;
+  background-color: white;
+  width: 30%;
+  border-radius:17px;
+  margin-left: 35%;
+  margin-bottom: 3%;
+  padding: 10px 10px 10px 10px;
+}
+.Paragraph li
+{
+  text-align: left;
+}
+table{
+  background-color: orange;
+  border-radius:17px;
+  width: 30%;
+}
