@@ -1,6 +1,27 @@
 body{
   background-color: lightgrey;
 }
+.navBar{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 175px
+
+}
+
+
+li a{
+  display: block;
+  background-color: orange;
+  text-decoration: none;
+  color: black;
+
+}
+
+li a:hover {
+  background-color: darkorange;
+  color: white;
+}
 
 .Banner{
   background-color: orange;
@@ -16,9 +37,4 @@ body{
 .Paragraph li
 {
   text-align: left;
-}
-table{
-  background-color: orange;
-  border-radius:17px;
-  width: 30%;
 }
