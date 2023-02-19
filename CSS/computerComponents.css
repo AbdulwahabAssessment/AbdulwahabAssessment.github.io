@@ -1,0 +1,119 @@
+ul{
+  /* The list style type removes the dot */
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: orange;
+  /*The overflow fixes if the thing is big (text and size)*/
+  overflow: hidden;
+    /* top makes it move the the highest point, you can change it by changing the number or writing buttom */
+  top: 0;
+  width: 100%;
+  border-radius: 17px;
+    font-size: 35px;
+}
+
+li{
+  float: left;
+}
+
+li a{
+    /* makes it block*/
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 8px 7px;
+    /* removes the underline*/
+  text-decoration: none;
+}
+  /* the hover is when you put the curser over the text and the not() doesnt follow the code before it*/
+li a:hover:not(.currentpage){
+  background-color: yellow;
+  color: black;
+}
+  /*the current page that the user is browsing at doesnt change color */
+.currentpage{
+  background-color: darkorange;
+}
+
+body{
+  background-color: grey;
+}
+
+.cpu{
+  background-color: lightgrey;
+  border-radius: 3px;
+  padding-right: 37%;
+    font-size: 35px;
+}
+.one{
+  margin-left: 130%;
+  margin-top: -45%;
+}
+
+
+.MB{
+  background-color: lightgrey;
+  border-radius: 3px;
+  padding-right: 37%;
+    font-size: 35px;
+}
+.two{
+  margin-left: 130%;
+  margin-top: -75%;
+}
+
+.RAM{
+  background-color: lightgrey;
+  border-radius: 3px;
+  padding-right: 37%;
+    font-size: 35px;
+}
+.three{
+  margin-left: 130%;
+  margin-top: -45%;
+}
+
+.Storage{
+  background-color: lightgrey;
+  border-radius: 3px;
+  padding-right: 37%;
+    font-size: 35px;
+}
+.four{
+  margin-left: 130%;
+  margin-top: -45%;
+}
+
+.GPU{
+  background-color: lightgrey;
+  border-radius: 3px;
+  padding-right: 37%;
+    font-size: 35px;
+}
+.five{
+  margin-left: 130%;
+  margin-top: -45%;
+}
+
+.PS{
+  background-color: lightgrey;
+  border-radius: 3px;
+  padding-right: 37%;
+    font-size: 35px;
+}
+.six{
+  margin-left: 130%;
+  margin-top: -45%;
+}
+
+.Cooling{
+  background-color: lightgrey;
+  border-radius: 3px;
+  padding-right: 37%;
+    font-size: 35px;
+}
+.seven{
+  margin-left: 130%;
+  margin-top: -1000%;
+}
