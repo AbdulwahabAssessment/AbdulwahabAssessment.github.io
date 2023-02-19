@@ -10,6 +10,7 @@ ul{
   top: 0;
   width: 100%;
   border-radius: 17px;
+    font-size: 35px;
 }
 
 li{
@@ -33,4 +34,86 @@ li a:hover:not(.currentpage){
   /*the current page that the user is browsing at doesnt change color */
 .currentpage{
   background-color: darkorange;
+}
+
+body{
+  background-color: grey;
+}
+
+.cpu{
+  background-color: lightgrey;
+  border-radius: 3px;
+  padding-right: 37%;
+    font-size: 35px;
+}
+.one{
+  margin-left: 130%;
+  margin-top: -45%;
+}
+
+
+.MB{
+  background-color: lightgrey;
+  border-radius: 3px;
+  padding-right: 37%;
+    font-size: 35px;
+}
+.two{
+  margin-left: 130%;
+  margin-top: -75%;
+}
+
+.RAM{
+  background-color: lightgrey;
+  border-radius: 3px;
+  padding-right: 37%;
+    font-size: 35px;
+}
+.three{
+  margin-left: 130%;
+  margin-top: -45%;
+}
+
+.Storage{
+  background-color: lightgrey;
+  border-radius: 3px;
+  padding-right: 37%;
+    font-size: 35px;
+}
+.four{
+  margin-left: 130%;
+  margin-top: -45%;
+}
+
+.GPU{
+  background-color: lightgrey;
+  border-radius: 3px;
+  padding-right: 37%;
+    font-size: 35px;
+}
+.five{
+  margin-left: 130%;
+  margin-top: -45%;
+}
+
+.PS{
+  background-color: lightgrey;
+  border-radius: 3px;
+  padding-right: 37%;
+    font-size: 35px;
+}
+.six{
+  margin-left: 130%;
+  margin-top: -45%;
+}
+
+.Cooling{
+  background-color: lightgrey;
+  border-radius: 3px;
+  padding-right: 37%;
+    font-size: 35px;
+}
+.seven{
+  margin-left: 130%;
+  margin-top: -1000%;
 }
