@@ -41,6 +41,7 @@ body{
   position: relative;
 }
 
+/*computer component div*/
 .computercomponent{
   background-color: lightgrey;
   text-align: center;
@@ -52,44 +53,15 @@ body{
   padding-top: 30px;
   padding-bottom: 30px;
 }
+
 .compcomp{
+  /*removes the line for the link*/
     text-decoration: none;
 }
 
 
-.computerEvo{
-  background-color: lightgrey;
-  text-align: center;
-  border-radius: 17px;
-  width: 45%;
-  margin-left: 25%;
-  margin-top: 10px;
-  font-size: 35px;
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
-.compevo{
-  text-decoration: none;
-}
 
-
-.build{
-  background-color: lightgrey;
-  text-align: center;
-  border-radius: 17px;
-  width: 45%;
-  margin-left: 25%;
-  margin-top: 10px;
-  font-size: 35px;
-  padding-top: 30px;
-  padding-bottom: 30px;
-}
-.buildcomp{
-  text-decoration: none;
-}
-
-
-
+/*my computer div*/
 .myComputer{
   background-color: lightgrey;
   text-align: center;

@@ -1,3 +1,4 @@
+
 ul{
   /* The list style type removes the dot */
   list-style-type: none;
@@ -39,80 +40,87 @@ li a:hover:not(.currentpage){
 body{
   background-color: grey;
 }
-
+/*cpu div*/
 .cpu{
   background-color: lightgrey;
   border-radius: 3px;
   padding-right: 37%;
     font-size: 35px;
 }
+/*cpu phot*/
 .one{
   margin-left: 130%;
   margin-top: -45%;
 }
 
-
+/*mother board div*/
 .MB{
   background-color: lightgrey;
   border-radius: 3px;
   padding-right: 37%;
     font-size: 35px;
 }
+/*mother board photo*/
 .two{
   margin-left: 130%;
   margin-top: -75%;
 }
-
+/*ram div*/
 .RAM{
   background-color: lightgrey;
   border-radius: 3px;
   padding-right: 37%;
     font-size: 35px;
 }
+/*ram photo*/
 .three{
   margin-left: 130%;
   margin-top: -45%;
 }
-
+/*storage div*/
 .Storage{
   background-color: lightgrey;
   border-radius: 3px;
   padding-right: 37%;
     font-size: 35px;
 }
+/*storage photo*/
 .four{
   margin-left: 130%;
   margin-top: -45%;
 }
-
+/*gpu div*/
 .GPU{
   background-color: lightgrey;
   border-radius: 3px;
   padding-right: 37%;
     font-size: 35px;
 }
+/*gpu photo*/
 .five{
   margin-left: 130%;
   margin-top: -45%;
 }
-
+/*power supply div*/
 .PS{
   background-color: lightgrey;
   border-radius: 3px;
   padding-right: 37%;
     font-size: 35px;
 }
+/*power supply photo*/
 .six{
   margin-left: 130%;
   margin-top: -45%;
 }
-
+/*cooling div*/
 .Cooling{
   background-color: lightgrey;
   border-radius: 3px;
   padding-right: 37%;
     font-size: 35px;
 }
+/*colling photo*/
 .seven{
   margin-left: 130%;
   margin-top: -1000%;

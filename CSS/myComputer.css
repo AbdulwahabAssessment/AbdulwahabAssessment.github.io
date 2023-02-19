@@ -39,18 +39,19 @@ li a:hover:not(.currentpage){
 body{
   background-color: grey;
 }
-
+/*photo of my setup*/
 .one{
   margin-left: 40%;
 }
 
-
+/*spec's  div*/
 .spec{
   background-color: lightgrey;
   border-radius: 7px;
   margin-top:auto;
   font-size: 35px;
 }
+/*pc photo*/
 .two{
   margin-left: 70%;
   margin-top: -100%
