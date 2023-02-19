@@ -1,20 +1,36 @@
-body{
-  background-color: lightgrey;
-}
-
-h1{
+ul{
+  /* The list style type removes the dot */
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
   background-color: orange;
-  border-radius:17px;
+  /*The overflow fixes if the thing is big (text and size)*/
+  overflow: hidden;
+    /* top makes it move the the highest point, you can change it by changing the number or writing buttom */
+  top: 0;
+  width: 100%;
+  border-radius: 17px;
 }
 
-p{
-  background-color: white;
-  border-radius:7px;
+li{
+  float: left;
 }
 
-table{
-  background-color: orange;
-  border-radius:17px;
-  width: 30%;
-
+li a{
+    /* makes it block*/
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 8px 7px;
+    /* removes the underline*/
+  text-decoration: none;
+}
+  /* the hover is when you put the curser over the text and the not() doesnt follow the code before it*/
+li a:hover:not(.currentpage){
+  background-color: yellow;
+  color: black;
+}
+  /*the current page that the user is browsing at doesnt change color */
+.currentpage{
+  background-color: darkorange;
 }

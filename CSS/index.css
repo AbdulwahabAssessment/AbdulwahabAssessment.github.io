@@ -1,40 +1,100 @@
-body{
-  background-color: lightgrey;
-}
-.navBar{
+
+ul{
+  /* The list style type removes the dot */
   list-style-type: none;
   margin: 0;
   padding: 0;
-  width: 175px
-
+  background-color: orange;
+  /*The overflow fixes if the thing is big (text and size)*/
+  overflow: hidden;
+    /* top makes it move the the highest point, you can change it by changing the number or writing buttom */
+  top: 0;
+  width: 100%;
+  border-radius: 17px;
 }
 
+li{
+  float: left;
+}
 
 li a{
+    /* makes it block*/
   display: block;
-  background-color: orange;
-  text-decoration: none;
-  color: black;
-
-}
-
-li a:hover {
-  background-color: darkorange;
   color: white;
-}
-
-.Banner{
-  background-color: orange;
-  border-radius:17px;
-}
-.Paragraph{
   text-align: center;
-  background-color: white;
-  width: 30%;
-  border-radius:17px;
-
+  padding: 8px 7px;
+    /* removes the underline*/
+  text-decoration: none;
 }
-.Paragraph li
-{
-  text-align: left;
+  /* the hover is when you put the curser over the text and the not() doesnt follow the code before it*/
+li a:hover:not(.currentpage){
+  background-color: yellow;
+  color: black;
+}
+  /*the current page that the user is browsing at doesnt change color */
+.currentpage{
+  background-color: darkorange;
+}
+body{
+  background-color: grey;
+}
+
+.computercomponent{
+  background-color: lightgrey;
+  text-align: center;
+  border-radius: 17px;
+  width: 45%;
+  margin-left: 25%;
+  margin-top: 10px;
+  font-size: 25px;
+}
+.compcomp{
+    text-decoration: none;
+}
+
+
+.computerEvo{
+  background-color: lightgrey;
+  text-align: center;
+  border-radius: 17px;
+  width: 45%;
+  margin-left: 25%;
+  margin-top: 10px;
+  font-size: 25px;
+}
+.compevo{
+  text-decoration: none;
+}
+
+
+.build{
+  background-color: lightgrey;
+  text-align: center;
+  border-radius: 17px;
+  width: 45%;
+  margin-left: 25%;
+  margin-top: 10px;
+  font-size: 25px;
+}
+.buildcomp{
+  text-decoration: none;
+}
+
+
+
+.myComputer{
+  background-color: lightgrey;
+  text-align: center;
+  border-radius: 17px;
+  width: 45%;
+  margin-left: 25%;
+  margin-top: 10px;
+  font-size: 25px;
+}
+.myComp{
+      text-decoration: none;
+}
+
+@media {
+
 }

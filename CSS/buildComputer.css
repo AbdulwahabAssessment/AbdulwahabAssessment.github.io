@@ -1,3 +1,7 @@
+body{
+  background-color: grey;
+}
+
 ul{
   /* The list style type removes the dot */
   list-style-type: none;
@@ -9,6 +13,7 @@ ul{
     /* top makes it move the the highest point, you can change it by changing the number or writing buttom */
   top: 0;
   width: 100%;
+  border-radius: 17px;
 }
 
 li{
@@ -32,4 +37,29 @@ li a:hover:not(.currentpage){
   /*the current page that the user is browsing at doesnt change color */
 .currentpage{
   background-color: darkorange;
+}
+
+.stepOne{
+  background-color: lightgrey;
+  border-radius: 5px;
+  width: 50%;
+}
+
+.stepTwo{
+  background-color: lightgrey;
+  border-radius: 5px;
+  width: 50%;
+}
+
+.stepThree{
+  background-color: lightgrey;
+  border-radius: 5px;
+  width: 50%;
+  margin-right: 100px;
+}
+
+.stepFour{
+  background-color: lightgrey;
+  border-radius: 5px;
+  width: 50%;
 }
